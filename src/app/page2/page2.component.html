@@ -1,0 +1,15 @@
+<div>
+    <h1>Page Two</h1>
+    <ngb-accordion [closeOthers]="true" activeIds="static-1">
+        <ngb-panel 
+          *ngFor="let faq2Question of faq2Questions; let i=index" 
+          [id]="'faq2Question-' + i" 
+          [ngClass] = "'faq2Question'"
+          [title]="faq2Question.title">
+          <ng-template ngbPanelContent>
+            {{ faq2Question.description }}
+          </ng-template>
+        </ngb-panel>
+      </ngb-accordion>
+    
+    </div>

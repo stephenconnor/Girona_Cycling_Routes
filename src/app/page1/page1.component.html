@@ -1,0 +1,13 @@
+<div>
+<h1>Page One</h1>
+<ngb-accordion [closeOthers]="true" activeIds="static-1">
+    <ngb-panel 
+      *ngFor="let faqQuestion of faqQuestions; let i=index" [id]="'faqQuestion-' + i" [title]="faqQuestion.title" [attr.tabindex]="-1">
+      <p [innerHTML]="faqQuestion.title"></p>
+      <ng-template ngbPanelContent>
+        <p [innerHTML]="faqQuestion.description"></p>
+      </ng-template>
+    </ngb-panel>
+  </ngb-accordion>
+</div>
+<!-- [title]="faqQuestion.title" -->
