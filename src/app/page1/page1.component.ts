@@ -6,12 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./page1.component.less']
 })
 export class Page1Component implements OnInit {
-   title = 'Short Routes';
+   title = 'Page1';
    
   
 
   faqQuestions = [
-    {title:"Banyoles Short Loop", description:"Short rolling loop to the lake in Banyoles"+`<a role="link" href="https://connect.garmin.com/modern/course/139251524"> Banyoles Loop Short GPX</a>`},
+    {title:"Question 1", description:"Answer 1 description"+`<a role="link" href="https://www.w3schools.com">Visit W3Schools <i class="bi bi-arrow-right"></i></a>`},
     {title:"Question 2", description:"Answer 2 description"},
     {title:"Question 3", description:"Answer 3 description"}
   ]
