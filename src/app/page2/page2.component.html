@@ -1,13 +1,13 @@
 <div>
-    <h1>Page Two</h1>
+    <h1>Long Routes</h1>
     <ngb-accordion [closeOthers]="true" activeIds="static-1">
         <ngb-panel 
-          *ngFor="let faq2Question of faq2Questions; let i=index" 
-          [id]="'faq2Question-' + i" 
-          [ngClass] = "'faq2Question'"
-          [title]="faq2Question.title">
+          *ngFor="let longRoute of longRoutes; let i=index" 
+          [id]="'longRoute-' + i" 
+          [ngClass] = "'longRoute'"
+          [title]="longRoute.title">
           <ng-template ngbPanelContent>
-            {{ faq2Question.description }}
+            {{ longRoute.description }}
           </ng-template>
         </ngb-panel>
       </ngb-accordion>

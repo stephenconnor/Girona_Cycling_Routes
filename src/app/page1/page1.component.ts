@@ -10,9 +10,12 @@ export class Page1Component implements OnInit {
    
   
 
-  faqQuestions = [
-    {title:"Banyoles Loop Short", description:"Short rolling loop to the lake in Banyoles"+`<a role="link" href="https://connect.garmin.com/modern/course/139251524">Banyoles Short Loop</a>`},
-    {title:"Question 2", description:"Answer 2 description"},
+  shortRoutes = [
+    {title:"Banyoles Loop Short", description:"Short rolling loop to the lake in Banyoles"+`<a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/139251524"><p>Banyoles Short Loop &nbsp;&nbsp;<i class="bi bi-geo-alt"></i></p> </a>`},
+    {title:"Volta Puig", description:"Short loop to Adri over El Puig"+`<a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/139285517"><p>Volta Puig &nbsp;&nbsp;<i class="bi bi-geo-alt"></i></p> </a>`, image: "<img src='src/assets/images/Volta_Puig.jpg'>"},
+    // {title:"Volta Puig", description:"Short loop to Adri over El Puig"+`<a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/139285517"><p>Volta Puig &nbsp;&nbsp;<i class="bi bi-geo-alt"></i></p> </a>`, Image: "<img src="'E:/Girona_Cycling_Routes/src/assets/images.Volta_Puig.jpg'">"},
+    {title:"Medinya → Cornella → Banyoles", description:"Short loop through Medinya to Banyoles"+`<a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/139285865"><p>Medinya → Cornella → Banyoles &nbsp;&nbsp;<i class="bi bi-geo-alt"></i></p> </a>`},
+    
     {title:"Question 3", description:"Answer 3 description"}
   ]
 

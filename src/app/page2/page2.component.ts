@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class Page2Component implements OnInit {
   title = 'Page Two';
 
-  faq2Questions = [
+  longRoutes = [
     {title:"PAGE 2 Question 1", description:"Answer 1 description"},
     {title:"PAGE 2 Question 2", description:"Answer 2 description"},
     {title:"Page 2 Question 3", description:"Answer 3 description"}
