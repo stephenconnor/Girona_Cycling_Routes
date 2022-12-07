@@ -1,13 +1,14 @@
 <div>
-<h1>Page One</h1>
+<h1>Short Routes</h1>
 <ngb-accordion [closeOthers]="true" activeIds="static-1">
     <ngb-panel 
-      *ngFor="let faqQuestion of faqQuestions; let i=index" [id]="'faqQuestion-' + i" [title]="faqQuestion.title" [attr.tabindex]="-1">
-      <p [innerHTML]="faqQuestion.title"></p>
+      *ngFor="let shortRoute of shortRoutes; let i=index" [id]="'shortRoute-' + i" [title]="shortRoute.title" [attr.tabindex]="-1">
+      <p [innerHTML]="shortRoute.title"></p>
       <ng-template ngbPanelContent>
-        <p [innerHTML]="faqQuestion.description"></p>
+        <p [innerHTML]="shortRoute.description"></p>
+        <!-- <p [innerHTML]="shortRoute.image"></p> -->
       </ng-template>
     </ngb-panel>
   </ngb-accordion>
 </div>
-<!-- [title]="faqQuestion.title" -->
+<!-- [title]="shortRoute.title" -->
