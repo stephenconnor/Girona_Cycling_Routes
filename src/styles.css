@@ -6,3 +6,7 @@
   content: "\f078";
   float: right;
 }
+.card-body img {
+  width: 25%;
+  height: 25%;
+}
