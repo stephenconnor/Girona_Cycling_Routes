@@ -6,7 +6,37 @@
   content: "\f078";
   float: right;
 }
+body {
+  background-image: url('assets/images/Rocacorba_opacity.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.main {
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem;
+  margin-right: 8.33333333%;
+}
+.main h1 {
+  color: #fff;
+  text-shadow: 0.2rem 0.2rem #000;
+}
+nav a {
+  color: #fda80d;
+}
+.card {
+  background-color: #7a7a7a82;
+}
+.card .btn-link {
+  color: #fda80d;
+}
+.card a {
+  color: #fff;
+}
 .card-body img {
   width: 25%;
   height: 25%;
+}
+.card-body p {
+  color: #fff;
 }
