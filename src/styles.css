@@ -21,7 +21,13 @@ body {
   color: #fff;
   text-shadow: 0.2rem 0.2rem #000;
 }
+.main p {
+  font-weight: 500;
+}
 nav a {
+  color: #fda80d;
+}
+nav a ::after {
   color: #fda80d;
 }
 .card {
@@ -29,6 +35,7 @@ nav a {
 }
 .card .btn-link {
   color: #fda80d;
+  text-decoration: none !important;
 }
 .card a {
   color: #fff;
