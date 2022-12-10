@@ -11,6 +11,7 @@ export class Page2Component implements OnInit {
   longRoutes = [
     {title:"PAGE 2 Question 1", description:"Answer 1 description"},
     {title:"PAGE 2 Question 2", description:"Answer 2 description"},
+    // {title:"Banyoles", description:"Short loop to Banyoles"+`<a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/139069662"><p>Banyoles &nbsp;&nbsp;<i class="bi bi-geo-alt"></i></p><img src="assets/images/Banyoles.jpg"></a>`},
     {title:"Page 2 Question 3", description:"Answer 3 description"}
   ]
 
