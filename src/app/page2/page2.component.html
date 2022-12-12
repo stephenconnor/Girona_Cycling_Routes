@@ -2,12 +2,10 @@
     <h1>Long Routes</h1>
     <ngb-accordion [closeOthers]="true" activeIds="static-1">
         <ngb-panel 
-          *ngFor="let longRoute of longRoutes; let i=index" 
-          [id]="'longRoute-' + i" 
-          [ngClass] = "'longRoute'"
-          [title]="longRoute.title">
+          *ngFor="let longRoute of longRoutes; let i=index" [id]="'longRoute-' + i" [ngClass] = "'longRoute'"[title]="longRoute.title">
+          <p [innerHTML]="longRoute.title"></p>
           <ng-template ngbPanelContent>
-            {{ longRoute.description }}
+            <p [innerHTML]="longRoute.description"></p>
           </ng-template>
         </ngb-panel>
       </ngb-accordion>
