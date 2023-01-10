@@ -110,5 +110,7 @@
       }
     }
   },
-  "defaultProject": "Accordion"
+  "cli": {
+    "analytics": false
+  }
 }
