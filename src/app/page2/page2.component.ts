@@ -14,6 +14,7 @@ export class Page2Component implements OnInit {
     {title:"Girona → Banyoles → Rocacorba", description:"Loop from Girona to Banyoles, with the classic Rocacorba climb coming after Banyoles"+`<a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/139360897"><p>Girona → Banyoles → Rocacorba &nbsp;&nbsp;<i class="bi bi-geo-alt"></i></p><img src="assets/images/Girona → Banyoles → Rocacorba.jpg"></a>`},
     {title:"Banyoles Hills", description:"Loop from Girona to Banyoles, with a small hilly loop to finish"+`<a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/139627380"><p>Banyoles Hills &nbsp;&nbsp;<i class="bi bi-geo-alt"></i></p><img src="assets/images/Banyoles Hills.jpg"></a>`},
     {title:"Alternative Coastal Route", description:"Coastal loop through Calonge, Sant Feliu de Guixols & Llagostera. "+`<a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/145987384"><p>Alternative Coastal Route &nbsp;&nbsp;<i class="bi bi-geo-alt"></i></p><img src="assets/images/Alternaitve_Coastal_Route.jpg"></a>`},
+    {title:"Saint Hilari Sacalm", description:"Alernate Loop to St. Hilari"+`<a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/147610515"><p>Saint Hilari Sacalm &nbsp;&nbsp;<i class="bi bi-geo-alt"></i></p><img src="assets/images/Saint_Hilari_Sacalm.jpg"></a>`},
   ]
 
   constructor() { }
