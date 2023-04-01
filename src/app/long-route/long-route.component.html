@@ -1,0 +1,12 @@
+<div>
+    <p-accordion>
+        <p-accordionTab class="p-accordionTab" *ngFor="let longRoute of longRoutes">
+            <ng-template pTemplate="header">
+                {{longRoute.heading}}
+            </ng-template>
+            <ng-template pTemplate="content">
+                <p [innerHtml]="longRoute.content"></p>
+            </ng-template>
+        </p-accordionTab>
+    </p-accordion>
+    </div>

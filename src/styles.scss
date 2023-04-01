@@ -1,1 +1,214 @@
 /* You can add global styles to this file, and also import other style files */
+@import "primeicons/primeicons.css";
+@import "primeflex/primeflex.css";
+
+$gironaYellow: #f5b14d;
+$gironaYellowLight: #F9D39A;
+$backgroundContrast: #78664A;
+$backgroundContrast050: rgba(120, 102, 74, 0.45);
+$backgroundContrast040: #78664a66;
+
+body {
+    background-color: $gironaYellow;
+
+    .banner {
+        background-color: $backgroundContrast !important;
+        margin-bottom: 1rem;
+
+        h1 {
+            color: lightgrey;
+            // text-shadow: 0.1rem 0.1rem $gironaYellowLight;
+            text-shadow: 0.1rem 0.1rem $gironaYellow;
+        }
+
+        p {
+            color: lightgrey !important;
+            font-size: 1.2rem;
+            // text-shadow: 0.1rem 0.1rem $gironaYellowLight;
+        }
+    }
+
+    main {
+        // background-color: rgba(120, 102, 74, 0.5);
+
+        nav {
+            // text-shadow: 0.05rem 0.05rem $backgroundContrast;
+            text-shadow: 0.05rem 0.05rem $gironaYellow;
+
+            a {
+                color: lightgrey;
+                font-size: 1.5rem;
+                // background-color: $backgroundContrast040;
+                background-color: $backgroundContrast;
+                padding: 0.5rem;
+                text-decoration: none;
+            }
+
+            a:visited {
+                color: lightgrey;
+                font-size: 1.5rem;
+                // background-color: $backgroundContrast040;
+                background-color: $backgroundContrast;
+                padding: 0.5rem;
+                border-left-style: solid;
+                border-left-color: lightgrey;
+                border-bottom-style: solid;
+                border-bottom-color: lightgrey;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: lightgrey;
+                font-size: 1.5rem;
+                // background-color: $backgroundContrast040;
+                background-color: $backgroundContrast;
+                padding: 0.5rem;
+                border-left-style: solid;
+                border-left-color: lightgrey;
+                border-bottom-style: solid;
+                border-bottom-color: lightgrey;
+                text-decoration: none;
+            }
+
+            a:active {
+                color: lightgrey;
+                font-size: 1.5rem;
+                // background-color: $backgroundContrast040;
+                background-color: $backgroundContrast;
+                padding: 0.5rem;
+                border-left-style: solid;
+                border-left-color: lightgrey;
+                border-bottom-style: solid;
+                border-bottom-color: lightgrey;
+                text-decoration: none;
+            }
+        }
+
+        a:-webkit-any-link {
+            color: lightgrey;
+            text-decoration: none;
+        }
+    }
+
+    section {
+        // app-short-route>div>h1 {
+        //     background-color: $backgroundContrast040 !important;
+        //     margin-block-start: 1rem;
+        //     margin-block-end: .5rem;
+        //     padding-top: 1rem;
+        //     padding-bottom: 1rem;
+        // }
+        text-shadow: 0.05rem 0.05rem $backgroundContrast;
+
+        p-accordiontab.p-element.ng-tns-c2-0.ng-star-inserted {
+            // background-color: $backgroundContrast040 !important;
+            background-color: $backgroundContrast !important;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+
+        .content {
+            border: 2rem !important;
+        }
+
+        .p-accordion-header-link{
+            font-size: 1.25rem;
+            color: lightgrey;
+        }
+
+        .p-accordion-tab {
+            // background-color: $backgroundContrast040 !important;
+            background-color: $backgroundContrast !important;
+            margin-bottom: .2rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            border-left: 0.25rem solid lightgrey;
+            border-bottom: 0.125rem solid lightgrey !important;
+            border-radius: .2rem;
+            // border-end-start-radius: .2rem;
+            box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.3);
+
+            .p-accordion-content p{
+                color: lightgray;
+                img{
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+
+        i {
+            font-size: 1.25rem;
+        }
+    }
+}
+
+
+// padding-top: 1.5rem;
+// padding-bottom: 1.5rem;
+// border-left: 0.25rem solid teal;
+// border-bottom: 0.0625rem solid teal;
+//     box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.3);
+
+
+// .btn-link:after {
+//     font-family: 'FontAwesome';
+//     content: "\f078";
+//     float: right;
+//   }
+//   body {
+//     background-image: url('assets/images/Rocacorba_opacity.jpg');
+//     background-repeat: no-repeat;
+//     background-attachment: fixed;
+//     background-size: cover;
+//   }
+//   .main {
+//     padding-top: 1.875rem;
+//     padding-bottom: 1.875rem;
+//     margin-right: 8.33333333%;
+//   }
+//   .main h1 {
+//     color: #fff;
+//     text-shadow: 0.2rem 0.2rem #000;
+//   }
+//   .main p {
+//     font-weight: 500;
+//   }
+//   nav a {
+//     color: $baseOrange;
+//   }
+//   nav a ::after {
+//     color: $baseOrange;
+//   }
+//   .accordion-item {
+//     background-color: backgroundGray !important;
+//   }
+//   .accordion-item .btn-link {
+//     color: $baseOrange;
+//     text-decoration: none !important;
+//   }
+//   .accordion-item a {
+//     color: #fff;
+//   }
+//   .accordion-item .accordion-button {
+//     background-color: backgroundGray !important;
+//     color: $baseOrange;
+//   }
+//   .accordion-item .accordion-button .btn-link {
+//     color: $baseOrange;
+//     text-decoration: none !important;
+//   }
+//   .accordion-item .accordion-button a {
+//     color: #fff;
+//   }
+//   .accordion-body img {
+//     width: 25%;
+//     height: 25%;
+//   }
+//   .accordion-body p {
+//     color: #fff;
+//   }
+//   .accordion-body .geo-location {
+//     height: 1.25rem !important;
+//     width: 1.25rem !important;
+//   }

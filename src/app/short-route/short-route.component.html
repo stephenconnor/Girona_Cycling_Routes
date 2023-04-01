@@ -1,0 +1,12 @@
+<div>
+<p-accordion>
+    <p-accordionTab class="p-accordionTab" *ngFor="let shortRoute of shortRoutes">
+        <ng-template pTemplate="header">
+            {{shortRoute.heading}}
+        </ng-template>
+        <ng-template pTemplate="content">
+            <p [innerHtml]="shortRoute.content"></p>
+        </ng-template>
+    </p-accordionTab>
+</p-accordion>
+</div>
