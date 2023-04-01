@@ -111,7 +111,7 @@ body {
             border: 2rem !important;
         }
 
-        .p-accordion-header-link{
+        .p-accordion-header-link {
             font-size: 1.25rem;
             color: lightgrey;
         }
@@ -128,9 +128,10 @@ body {
             // border-end-start-radius: .2rem;
             box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.3);
 
-            .p-accordion-content p{
+            .p-accordion-content p {
                 color: lightgray;
-                img{
+
+                img {
                     height: 100%;
                     width: 100%;
                 }
@@ -139,6 +140,18 @@ body {
 
         i {
             font-size: 1.25rem;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    body{
+        main {
+            nav {
+                a {
+                    font-size: 1.25rem;
+                }
+            }
         }
     }
 }
