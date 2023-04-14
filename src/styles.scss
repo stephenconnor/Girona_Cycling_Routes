@@ -3,106 +3,108 @@
 @import "primeflex/primeflex.css";
 
 $gironaYellow: #f5b14d;
-$gironaYellowLight: #F9D39A;
-$backgroundContrast: #78664A;
+$bcakgroundBeige: #EAE7DC;
+$lightBrown: #D8C3A5;
+$backgroundContrast: #B1A296;
 $backgroundContrast050: rgba(120, 102, 74, 0.45);
 $backgroundContrast040: #78664a66;
+$red: #E85A4F;
+$lightRed: #E98074;
+$mediumGrey: #8E8D8A;
+$white: #fff;
+$navyBlue: #25274D;
+$turquoise: #2E9CCA;
+$babyBlue: #AAABB8;
+$blue: #29648A;
 
 body {
-    background-color: $gironaYellow;
+    background-color: $babyBlue;
+
 
     .banner {
-        background-color: $backgroundContrast !important;
+        background-color: $navyBlue;
         margin-bottom: 1rem;
 
         h1 {
-            color: lightgrey;
-            // text-shadow: 0.1rem 0.1rem $gironaYellowLight;
-            text-shadow: 0.1rem 0.1rem $gironaYellow;
+            color: $white;
+            text-shadow: 0.1rem 0.1rem #2c3531;
         }
 
         p {
-            color: lightgrey !important;
+            color: $white !important;
             font-size: 1.2rem;
-            // text-shadow: 0.1rem 0.1rem $gironaYellowLight;
+            font-weight: 700;
         }
     }
 
     main {
-        // background-color: rgba(120, 102, 74, 0.5);
 
         nav {
-            // text-shadow: 0.05rem 0.05rem $backgroundContrast;
-            text-shadow: 0.05rem 0.05rem $gironaYellow;
 
             a {
-                color: lightgrey;
+                color: $white;
                 font-size: 1.5rem;
-                // background-color: $backgroundContrast040;
-                background-color: $backgroundContrast;
+                font-weight: 700;
+                background-color: $blue;
                 padding: 0.5rem;
                 text-decoration: none;
             }
 
             a:visited {
-                color: lightgrey;
+                color: $white;
+                font-weight: 700;
                 font-size: 1.5rem;
-                // background-color: $backgroundContrast040;
-                background-color: $backgroundContrast;
+                // background-color: $blue;
+                background-image: linear-gradient(to right, $blue, $turquoise , $babyBlue);
                 padding: 0.5rem;
                 border-left-style: solid;
-                border-left-color: lightgrey;
+                border-left-color: $navyBlue;
                 border-bottom-style: solid;
-                border-bottom-color: lightgrey;
+                border-bottom-color: $navyBlue;
                 text-decoration: none;
             }
 
             a:hover {
-                color: lightgrey;
+                color: $white;
+                font-weight: 700;
                 font-size: 1.5rem;
-                // background-color: $backgroundContrast040;
-                background-color: $backgroundContrast;
+                // background-color: $blue;
+                background-image: linear-gradient(to right, $blue, $turquoise , $babyBlue);
                 padding: 0.5rem;
                 border-left-style: solid;
-                border-left-color: lightgrey;
+                border-left-color: $navyBlue;
                 border-bottom-style: solid;
-                border-bottom-color: lightgrey;
+                border-bottom-color: $navyBlue;
                 text-decoration: none;
             }
 
             a:active {
-                color: lightgrey;
+                color: $white;
+                font-weight: 700;
                 font-size: 1.5rem;
-                // background-color: $backgroundContrast040;
-                background-color: $backgroundContrast;
+                background-image: linear-gradient(to right, $blue, $turquoise , $babyBlue);
+                // background-color: $blue;
                 padding: 0.5rem;
                 border-left-style: solid;
-                border-left-color: lightgrey;
+                border-left-color: $navyBlue;
                 border-bottom-style: solid;
-                border-bottom-color: lightgrey;
+                border-bottom-color: $navyBlue;
                 text-decoration: none;
             }
         }
 
         a:-webkit-any-link {
-            color: lightgrey;
+            color: white;
+            font-weight: 700;
             text-decoration: none;
         }
     }
 
     section {
-        // app-short-route>div>h1 {
-        //     background-color: $backgroundContrast040 !important;
-        //     margin-block-start: 1rem;
-        //     margin-block-end: .5rem;
-        //     padding-top: 1rem;
-        //     padding-bottom: 1rem;
-        // }
-        text-shadow: 0.05rem 0.05rem $backgroundContrast;
+        text-shadow: 0.05rem 0.05rem $babyBlue;
 
         p-accordiontab.p-element.ng-tns-c2-0.ng-star-inserted {
-            // background-color: $backgroundContrast040 !important;
-            background-color: $backgroundContrast !important;
+            background-image: linear-gradient(to right, #29648A, #2E9CCA , #AAABB8);
             padding-top: 1rem;
             padding-bottom: 1rem;
         }
@@ -113,23 +115,23 @@ body {
 
         .p-accordion-header-link {
             font-size: 1.25rem;
-            color: lightgrey;
+            color: white;
+            font-weight: 700;
         }
 
         .p-accordion-tab {
-            // background-color: $backgroundContrast040 !important;
-            background-color: $backgroundContrast !important;
+            background-image: linear-gradient(to right, $blue, $turquoise , $babyBlue);
             margin-bottom: .2rem;
             padding-top: 1rem;
             padding-bottom: 1rem;
-            border-left: 0.25rem solid lightgrey;
-            border-bottom: 0.125rem solid lightgrey !important;
+            border-left: 0.25rem solid $navyBlue;
+            border-bottom: 0.125rem solid $navyBlue !important;
             border-radius: .2rem;
-            // border-end-start-radius: .2rem;
             box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.3);
 
             .p-accordion-content p {
-                color: lightgray;
+                color: $white;
+                font-weight: 700;
 
                 img {
                     height: 100%;
@@ -145,11 +147,12 @@ body {
 }
 
 @media screen and (max-width: 576px) {
-    body{
+    body {
         main {
             nav {
                 a {
                     font-size: 1.25rem;
+                    font-weight: 700;
                 }
             }
         }
