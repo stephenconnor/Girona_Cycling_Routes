@@ -31,6 +31,10 @@ export class LongRouteComponent {
     {
       heading: 'Saint Hilari Sacalm',
       content: 'Alernate Loop to St. Hilari<a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/147610515"><p>Saint Hilari Sacalm &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Saint_Hilari_Sacalm.jpg"></a>'
+    },
+    {
+      heading: 'El Far (Coll D\'Uria) → Olot → Banyoles',
+      content: 'Loop to Olot via Coll D\'Uria returning through Banyoles. Nearly 2000m of vertical ascent here including the stunning views from Santauri El Far <a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/139376466"><p>El Far (Coll D\'Uria) → Olot → Banyoles &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/El Far (Coll D\'Uria).jpg"></a>'
     }
     ]
 
