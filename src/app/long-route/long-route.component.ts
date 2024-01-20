@@ -14,7 +14,7 @@ export class LongRouteComponent {
       content: 'Loop to St. Hilari<a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/139412229"><p>St Hilari 125 &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/St Hilari 125.jpg"></a>'
     }, {
       heading: 'Tossa De Mar, Coastal Route',
-      content: 'Coastal loop through Tossa De Mar & Sant Feliu de Guixols with El Angels climb to finish. <a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/139523426"><p>Tossa De Mar, Coastal Route &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/TossaDeMar_Coastal.jpg"></a>'
+      content: 'Coastal loop through Tossa De Mar & Sant Feliu de Guixols with Els Ángles climb to finish. <a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/139523426"><p>Tossa De Mar, Coastal Route &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/TossaDeMar_Coastal.jpg"></a>'
     },
     {
       heading: 'Girona → Banyoles → Rocacorba',
@@ -35,6 +35,18 @@ export class LongRouteComponent {
     {
       heading: 'El Far (Coll D\'Uria) → Olot → Banyoles',
       content: 'Loop to Olot via Coll D\'Uria returning through Banyoles. Nearly 2000m of vertical ascent here including the stunning views from Santauri El Far <a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/139376466"><p>El Far (Coll D\'Uria) → Olot → Banyoles &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/El Far (Coll D\'Uria).jpg"></a>'
+    },
+    {
+      heading: 'Banyoles Ardennes Long',
+      content: 'Loop from Girona to Banyoles, with a hilly loop out to Camallera enroute to Banyoles <a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/245556489"><p>Banyoles Ardennes Long &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Banyoles_Ardennes_Long.jpg"></a>'
+    },
+    {
+      heading: 'Olot Loop',
+      content: 'Loop through Sant Feliu de Pallerois to Olot and back to Girona via Banyoles. <a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/245544223"><p>Olot Loop &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Olot.jpg"></a>'
+    },
+    {
+      heading: 'Coastal Route → St Grau → Els Ángles',
+      content: 'Coastal loop climbing St Grau then through Llagostera & Sant Feliu de Guixols. <a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/245544271"><p>Alternative Coastal Route &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Girona_Coastal_StGrau_ElsAngels.jpg"></a>'
     }
     ]
 
