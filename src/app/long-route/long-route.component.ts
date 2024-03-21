@@ -51,12 +51,12 @@ export class LongRouteComponent {
     {
       heading: 'Les Planes d\'Hostoles → Osor → Saint Hilari Sacalm',
       content: 'Hilly loop to Saint Hilari Sacalm via Les Planes d\'Hostoles and Osor. <a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/248797244"><p>Les Planes d\'Hostoles → Osor → Saint Hilari Sacalm &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Les Planes d\'Hostoles → Osor → Saint Hilari Sacalm.jpg"></a>'
-    },
-    {
-      heading: 'Les Planes d\'Hostoles → Osor → Saint Hilari Sacalm',
-    //   content: 'Hilly loop to Saint Hilari Sacalm via Les Planes d\'Hostoles and Osor. <a href="src/assets/gpx_files/longRoutes/COURSE_248797244.gpx" target="_blank" ><p>Les Planes d\'Hostoles → Osor → Saint Hilari Sacalm &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Les Planes d\'Hostoles → Osor → Saint Hilari Sacalm.jpg"></a>'
-      content: 'Hilly loop to Saint Hilari Sacalm via Les Planes d\'Hostoles and Osor. <a href="src/assets/gpx_files/longRoutes/COURSE_248797244.gpx" download="COURSE_248797244.gpx" title="Download GPX"><p>Les Planes d\'Hostoles → Osor → Saint Hilari Sacalm &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p></a><p><img src="assets/images/Les Planes d\'Hostoles → Osor → Saint Hilari Sacalm.jpg"></p>'
-     }
+    }
+    // {
+    //   heading: 'Les Planes d\'Hostoles → Osor → Saint Hilari Sacalm',
+    // //   content: 'Hilly loop to Saint Hilari Sacalm via Les Planes d\'Hostoles and Osor. <a href="src/assets/gpx_files/longRoutes/COURSE_248797244.gpx" target="_blank" ><p>Les Planes d\'Hostoles → Osor → Saint Hilari Sacalm &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Les Planes d\'Hostoles → Osor → Saint Hilari Sacalm.jpg"></a>'
+    //   content: 'Hilly loop to Saint Hilari Sacalm via Les Planes d\'Hostoles and Osor. <a href="src/assets/gpx_files/longRoutes/COURSE_248797244.gpx" download="COURSE_248797244.gpx" title="Download GPX"><p>Les Planes d\'Hostoles → Osor → Saint Hilari Sacalm &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p></a><p><img src="assets/images/Les Planes d\'Hostoles → Osor → Saint Hilari Sacalm.jpg"></p>'
+    //  }
     ]
 
   }
