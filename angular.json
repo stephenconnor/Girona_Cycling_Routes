@@ -74,10 +74,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "GironaCyclingRoutes:build:production"
+              "buildTarget": "GironaCyclingRoutes:build:production"
             },
             "development": {
-              "browserTarget": "GironaCyclingRoutes:build:development"
+              "buildTarget": "GironaCyclingRoutes:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -85,7 +85,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "GironaCyclingRoutes:build"
+            "buildTarget": "GironaCyclingRoutes:build"
           }
         },
         "test": {
