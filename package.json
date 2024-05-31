@@ -21,7 +21,7 @@
     "chownr": "^3.0.0",
     "follow-redirects": "^1.15.6",
     "got": "^14.2.0",
-    "npm-check": "^6.0.1",
+    "npm-check": "^3.2.10",
     "primeflex": "^3.3.0",
     "primeicons": "^6.0.1",
     "primeng": "^15.3.0",
