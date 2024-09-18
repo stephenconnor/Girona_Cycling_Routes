@@ -28,7 +28,11 @@ export class ShortRouteComponent implements OnInit {
    {
          heading: 'Llora Constantin St Gregori',
   content: 'Llora Constantin St Gregori recovery loop. (Gravel sectors)<a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/148385620"><p>Llora Constantin St Gregori &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Llora_Constantin_St_Gregori.jpg"></a>'
-         }
+         },
+       {
+       heading: 'Hincapie Loop',
+content: 'A classic Girona Road bike route, also known as the Hincapie Loop after former professional cyclist George Hincapie, one of the first to discover Girona. Takes in the climbs of Els Àngels and Santa Pellaia taking in villages like Monells and Cassà de la Selva. Monells being a nice cafe stop.<a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/308484642"><p>Hincapie Loop &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/HincapeLoop.jpg"></a>'
+       }
        ]
 
  }
