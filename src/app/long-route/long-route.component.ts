@@ -51,7 +51,11 @@ export class LongRouteComponent {
     {
       heading: 'Les Planes d\'Hostoles → Osor → Saint Hilari Sacalm',
       content: 'Hilly loop to Saint Hilari Sacalm via Les Planes d\'Hostoles and Osor. <a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/248797244"><p>Les Planes d\'Hostoles → Osor → Saint Hilari Sacalm &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Les Planes d\'Hostoles → Osor → Saint Hilari Sacalm.jpg"></a>'
-    }
+    },
+    {
+           heading: 'Susqueda Reservoir Olot Loop',
+    content: 'Loop to Susqueda reservoir and Olot returning through Banyoles. Over 2000m of climbing on this route with stunning views over the reservoir.<a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/325235742"><p>Susqueda Reservoir Olot Loop &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Susqueda_Reservoir_Olot_Loop.jpg"></a>'
+           }
     // {
     //   heading: 'Les Planes d\'Hostoles → Osor → Saint Hilari Sacalm',
     // //   content: 'Hilly loop to Saint Hilari Sacalm via Les Planes d\'Hostoles and Osor. <a href="src/assets/gpx_files/longRoutes/COURSE_248797244.gpx" target="_blank" ><p>Les Planes d\'Hostoles → Osor → Saint Hilari Sacalm &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Les Planes d\'Hostoles → Osor → Saint Hilari Sacalm.jpg"></a>'
