@@ -44,9 +44,14 @@ export class LongRouteComponent {
       heading: 'Olot Loop',
       content: 'Loop through Sant Feliu de Pallerois to Olot and back to Girona via Banyoles. <a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/245544223"><p>Olot Loop &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Olot.jpg"></a>'
     },
+    // {
+    //   heading: 'Coastal Route → St Grau → Els Ángles',
+    // //  content: 'Coastal loop climbing St Grau then through Llagostera & Sant Feliu de Guixols. <a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/245544271"><p>Coastal Route → St Grau → Els Ángles &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Girona_Coastal_StGrau_ElsAngels.jpg"></a>'
+    //   content: 'Coastal loop climbing St Grau then through Llagostera & Sant Feliu de Guixols. <a role="link" Title="Garmin Connect" target="_blank" href="assets/gpx_files/longRoutes/Coastal Route → St Grau → Els Ángles.gpx"><p>Coastal Route → St Grau → Els Ángles &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Girona_Coastal_StGrau_ElsAngels.jpg"></a>'
+    // },
     {
       heading: 'Coastal Route → St Grau → Els Ángles',
-      content: 'Coastal loop climbing St Grau then through Llagostera & Sant Feliu de Guixols. <a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/245544271"><p>Coastal Route → St Grau → Els Ángles &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Girona_Coastal_StGrau_ElsAngels.jpg"></a>'
+      content: 'Coastal loop climbing St Grau then through Llagostera & Sant Feliu de Guixols. <a target="_self" href="assets/gpx_files/longRoutes/COURSE_GironaCoastal→StGrau→ElsÀngels.gpx" download="COURSE_GironaCoastal→StGrau→ElsÀngels.gpx" title="Download GPX"><p>Coastal Route → St Grau → Els Ángles &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Girona_Coastal_StGrau_ElsAngels.jpg"></a>'
     },
     // {
     //   heading: 'Les Planes d\'Hostoles → Osor → Saint Hilari Sacalm',
@@ -54,7 +59,7 @@ export class LongRouteComponent {
     // },
     {
       heading: 'Les Planes d\'Hostoles → Osor → Saint Hilari Sacalm',
-      content: 'Hilly loop to Saint Hilari Sacalm via Les Planes d\'Hostoles and Osor. <a target="_self" href="assets/gpx_files/longRoutes/COURSE_248797244.gpx" download="COURSE_248797244.gpx" title="Download GPX"><p>Les Planes d\'Hostoles → Osor → Saint Hilari Sacalm &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p></a><p><img src="assets/images/Les Planes d\'Hostoles → Osor → Saint Hilari Sacalm.jpg"></p>'
+      content: 'Hilly loop to Saint Hilari Sacalm via Les Planes d\'Hostoles and Osor. <a target="_self" href="assets/gpx_files/longRoutes/COURSE_LesPlanesdHostoles→Osor→SaintHilariSacalm.gpx" download="COURSE_LesPlanesdHostoles→Osor→SaintHilariSacalm.gpx" title="Download GPX"><p>Les Planes d\'Hostoles → Osor → Saint Hilari Sacalm &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p></a><p><img src="assets/images/Les Planes d\'Hostoles → Osor → Saint Hilari Sacalm.jpg"></p>'
      },
     // {
     //   heading: 'Susqueda Reservoir Olot Loop',
