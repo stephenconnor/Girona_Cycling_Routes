@@ -27,11 +27,11 @@ export class LongRouteComponent {
     },
     {
       heading: 'Alternative Coastal Route',
-      content: 'Coastal loop through Calonge, Sant Feliu de Guixols & Llagostera. <a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/145987384"><p>Alternative Coastal Route &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Alternaitve_Coastal_Route.jpg"></a>'
+      content: 'Coastal loop through Calonge, Sant Feliu de Guixols & Llagostera. <a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/145987384"><p>Alternative Coastal Route &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Alternative_Coastal_Route.jpg"></a>'
     },
     {
       heading: 'Saint Hilari Sacalm',
-      content: 'Alernate Loop to St. Hilari<a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/147610515"><p>Saint Hilari Sacalm &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Saint_Hilari_Sacalm.jpg"></a>'
+      content: 'Alternate Loop to St. Hilari<a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/147610515"><p>Saint Hilari Sacalm &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Saint_Hilari_Sacalm.jpg"></a>'
     },
     {
       heading: 'El Far (Coll D\'Uria) → Olot → Banyoles',
