@@ -1,10 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-    selector: 'app-short-route',
-    templateUrl: './short-route.component.html',
-    styleUrls: ['./short-route.component.scss'],
-    standalone: false
+  selector: 'app-short-route',
+  templateUrl: './short-route.component.html',
+  styleUrls: ['./short-route.component.scss']
 })
 export class ShortRouteComponent implements OnInit {
 

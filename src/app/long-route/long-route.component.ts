@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'app-long-route',
-    templateUrl: './long-route.component.html',
-    styleUrls: ['./long-route.component.scss'],
-    standalone: false
+  selector: 'app-long-route',
+  templateUrl: './long-route.component.html',
+  styleUrls: ['./long-route.component.scss']
 })
 export class LongRouteComponent {
   longRoutes!: LongRouteItem[];
