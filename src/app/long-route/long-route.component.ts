@@ -68,7 +68,7 @@ export class LongRouteComponent {
     // },
     {
       heading: 'Susqueda Reservoir Olot Loop',
-     content: 'Loop to Susqueda reservoir and Olot returning through Banyoles. Over 2000m of climbing on this route with stunning views over the reservoir.<a role="link" Title="Garmin Connect" target="_blank" href="assets/gpx_files/longRoutes/COURSE_325235742.gpx"><p>Susqueda Reservoir Olot Loop &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Susqueda_Reservoir_Olot_Loop.jpg"></a>'
+     content: 'Loop to Susqueda reservoir and Olot returning through Banyoles. Over 2000m of climbing on this route with stunning views over the reservoir.<a role="link" Title="Garmin Connect" target="_blank" href="assets/gpx_files/longRoutes/COURSE_SusquedaReservoirOlotLoop.gpx"><p>Susqueda Reservoir Olot Loop &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Susqueda_Reservoir_Olot_Loop.jpg"></a>'
      }
     // {
     //   heading: 'Les Planes d\'Hostoles → Osor → Saint Hilari Sacalm',
