@@ -41,9 +41,13 @@ export class LongRouteComponent {
       heading: 'Banyoles Ardennes Long',
       content: 'Loop from Girona to Banyoles, with a hilly loop out to Camallera enroute to Banyoles <a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/245556489"><p>Banyoles Ardennes Long &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Banyoles_Ardennes_Long.jpg"></a>'
     },
+    // {
+    //   heading: 'Olot Loop',
+    //   content: 'Loop through Sant Feliu de Pallerois to Olot and back to Girona via Banyoles. <a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/245544223"><p>Olot Loop &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Olot.jpg"></a>'
+    // },
     {
       heading: 'Olot Loop',
-      content: 'Loop through Sant Feliu de Pallerois to Olot and back to Girona via Banyoles. <a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/245544223"><p>Olot Loop &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Olot.jpg"></a>'
+      content: 'Loop through Sant Feliu de Pallerois to Olot and back to Girona via Banyoles. <a target="_self" href="assets/gpx_files/longRoutes/COURSE_OlotLoop.gpx" download="COURSE_OlotLoop.gpx" title="Download GPX"><p>Olot Loop &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Olot.jpg"></a>'
     },
     // {
     //   heading: 'Coastal Route → St Grau → Els Ángles',
