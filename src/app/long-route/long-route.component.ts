@@ -37,9 +37,13 @@ export class LongRouteComponent {
       heading: 'El Far (Coll D\'Uria) → Olot → Banyoles',
       content: 'Loop to Olot via Coll D\'Uria returning through Banyoles. Nearly 2000m of vertical ascent here including the stunning views from Santauri El Far <a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/139376466"><p>El Far (Coll D\'Uria) → Olot → Banyoles &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/El Far (Coll D\'Uria).jpg"></a>'
     },
+    // {
+    //   heading: 'Banyoles Ardennes Long',
+    //   content: 'Loop from Girona to Banyoles, with a hilly loop out to Camallera enroute to Banyoles <a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/245556489"><p>Banyoles Ardennes Long &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Banyoles_Ardennes_Long.jpg"></a>'
+    // },
     {
       heading: 'Banyoles Ardennes Long',
-      content: 'Loop from Girona to Banyoles, with a hilly loop out to Camallera enroute to Banyoles <a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/245556489"><p>Banyoles Ardennes Long &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Banyoles_Ardennes_Long.jpg"></a>'
+      content: 'Loop from Girona to Banyoles, with a hilly loop out to Camallera enroute to Banyoles <a target="_self" href="assets/gpx_files/longRoutes/COURSE_BanyolesArdennesLong.gpx" download="COURSE_BanyolesArdennesLong.gpx" title="Download GPX"><p>Banyoles Ardennes Long &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Banyoles_Ardennes_Long.jpg"></a>'
     },
     // {
     //   heading: 'Olot Loop',
