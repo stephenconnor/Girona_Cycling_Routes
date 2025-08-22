@@ -1,0 +1,37 @@
+<!-- <main class="main col-offset-1 md:col-10 lg:col-10 col-12"> -->
+<!-- <main> -->
+<!-- <h1>Girona Cycling Routes</h1> -->
+
+<!-- <p>
+    Cycling in Girona is unlike cycling anywhere else in the world. It’s not just the weather, roads and architecture. It’s the fact you feel you’re wandering into the home of the professional peloton. From Els Angels, Rocacorba to the Coastal Route through Tossa De Mar, there's parcours and scencery to suit all requirements. 
+  </p> -->
+<div class="grid grid-nogutter banner text-800">
+  <div class="col-12 md:col-6 p-6 text-center md:text-left flex align-items-center ">
+    <section>
+      <span class="block text-6xl font-bold mb-1">
+        <h1>Girona Cycling Routes</h1>
+      </span>
+      <p class="mt-0 mb-4 text-700 line-height-3">Cycling in Girona is unlike cycling anywhere else in the world. It’s
+        not just the weather, roads and architecture. It’s the fact you feel you’re wandering into the home of the
+        professional peloton. From Els Angels, Rocacorba to the Coastal Route through Tossa De Mar, there's parcours and
+        scencery to suit all requirements.</p>
+    </section>
+  </div>
+  <div class="col-12 md:col-6 overflow-hidden">
+    <img src="assets/images/Rocacorba_opacity_1.jpg" alt="Image" class="md:ml-auto block md:h-full"
+      style="clip-path: polygon(8% 0, 100% 0%, 100% 100%, 0 100%)">
+  </div>
+</div>
+<main>
+  <nav class="col-offset-1 col-10">
+    <a [routerLinkActive]="['activeLink']" routerLink="short-route">Short Routes</a>|
+    <a [routerLinkActive]="['activeLink']" routerLink="long-route">Long Routes</a>|
+    <!-- <a [routerLinkActive]="['activeLink']" routerLink="Page3">Recovery Rides</a>| -->
+  </nav>
+  <section class="content col-offset-1 col-10">
+    <router-outlet></router-outlet>
+  </section>
+</main>
+
+
+<!-- </main> -->
