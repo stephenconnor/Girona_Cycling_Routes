@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-long-route',
-  templateUrl: './long-route.component.html',
-  styleUrls: ['./long-route.component.scss']
+    selector: 'app-long-route',
+    templateUrl: './long-route.component.html',
+    styleUrls: ['./long-route.component.scss'],
+    standalone: false
 })
 export class LongRouteComponent {
   longRoutes!: LongRouteItem[];
@@ -26,23 +27,39 @@ export class LongRouteComponent {
     },
     {
       heading: 'Alternative Coastal Route',
-      content: 'Coastal loop through Calonge, Sant Feliu de Guixols & Llagostera. <a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/145987384"><p>Alternative Coastal Route &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Alternaitve_Coastal_Route.jpg"></a>'
+      content: 'Coastal loop through Calonge, Sant Feliu de Guixols & Llagostera. <a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/145987384"><p>Alternative Coastal Route &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Alternative_Coastal_Route.jpg"></a>'
     },
-    {
+    // {
+    //   heading: 'Saint Hilari Sacalm',
+    //   content: 'Alternate Loop to St. Hilari<a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/147610515"><p>Saint Hilari Sacalm &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Saint_Hilari_Sacalm.jpg"></a>'
+    // },
+     {
       heading: 'Saint Hilari Sacalm',
-      content: 'Alernate Loop to St. Hilari<a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/147610515"><p>Saint Hilari Sacalm &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Saint_Hilari_Sacalm.jpg"></a>'
+      content: 'Alternate Loop to St. Hilari<a target="_self" href="assets/gpx_files/longRoutes/COURSE_SantHilariSacalm.gpx" download="COURSE_SantHilariSacalm.gpx" title="Download GPX"><p>Saint Hilari Sacalm&nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Saint_Hilari_Sacalm.jpg"></a>'
     },
+    // {
+    //   heading: 'El Far (Coll D\'Uria) → Olot → Banyoles',
+    //   content: 'Loop to Olot via Coll D\'Uria returning through Banyoles. Nearly 2000m of vertical ascent here including the stunning views from Santauri El Far <a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/139376466"><p>El Far (Coll D\'Uria) → Olot → Banyoles &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/El Far (Coll D\'Uria).jpg"></a>'
+    // },
     {
       heading: 'El Far (Coll D\'Uria) → Olot → Banyoles',
-      content: 'Loop to Olot via Coll D\'Uria returning through Banyoles. Nearly 2000m of vertical ascent here including the stunning views from Santauri El Far <a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/139376466"><p>El Far (Coll D\'Uria) → Olot → Banyoles &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/El Far (Coll D\'Uria).jpg"></a>'
+      content: 'Loop to Olot via Coll D\'Uria returning through Banyoles. Nearly 2000m of vertical ascent here including the stunning views from Santauri El Far <a target="_self" href="assets/gpx_files/longRoutes/COURSE_OlotElFarCollDUria.gpx" download="COURSE_OlotElFarCollDUria.gpx" title="Download GPX"><p>El Far (Coll D\'Uria) → Olot → Banyoles Long &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/El Far (Coll D\'Uria).jpg"></a>'
     },
+    // {
+    //   heading: 'Banyoles Ardennes Long',
+    //   content: 'Loop from Girona to Banyoles, with a hilly loop out to Camallera enroute to Banyoles <a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/245556489"><p>Banyoles Ardennes Long &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Banyoles_Ardennes_Long.jpg"></a>'
+    // },
     {
       heading: 'Banyoles Ardennes Long',
-      content: 'Loop from Girona to Banyoles, with a hilly loop out to Camallera enroute to Banyoles <a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/245556489"><p>Banyoles Ardennes Long &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Banyoles_Ardennes_Long.jpg"></a>'
+      content: 'Loop from Girona to Banyoles, with a hilly loop out to Camallera enroute to Banyoles <a target="_self" href="assets/gpx_files/longRoutes/COURSE_BanyolesArdennesLong.gpx" download="COURSE_BanyolesArdennesLong.gpx" title="Download GPX"><p>Banyoles Ardennes Long &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Banyoles_Ardennes_Long.jpg"></a>'
     },
+    // {
+    //   heading: 'Olot Loop',
+    //   content: 'Loop through Sant Feliu de Pallerois to Olot and back to Girona via Banyoles. <a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/245544223"><p>Olot Loop &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Olot.jpg"></a>'
+    // },
     {
       heading: 'Olot Loop',
-      content: 'Loop through Sant Feliu de Pallerois to Olot and back to Girona via Banyoles. <a role="link" Title="Garmin Connect" target="_blank" href="https://connect.garmin.com/modern/course/245544223"><p>Olot Loop &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Olot.jpg"></a>'
+      content: 'Loop through Sant Feliu de Pallerois to Olot and back to Girona via Banyoles. <a target="_self" href="assets/gpx_files/longRoutes/COURSE_OlotLoop.gpx" download="COURSE_OlotLoop.gpx" title="Download GPX"><p>Olot Loop &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Olot.jpg"></a>'
     },
     // {
     //   heading: 'Coastal Route → St Grau → Els Ángles',
@@ -67,7 +84,7 @@ export class LongRouteComponent {
     // },
     {
       heading: 'Susqueda Reservoir Olot Loop',
-     content: 'Loop to Susqueda reservoir and Olot returning through Banyoles. Over 2000m of climbing on this route with stunning views over the reservoir.<a role="link" Title="Garmin Connect" target="_blank" href="assets/gpx_files/longRoutes/COURSE_325235742.gpx"><p>Susqueda Reservoir Olot Loop &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Susqueda_Reservoir_Olot_Loop.jpg"></a>'
+     content: 'Loop to Susqueda reservoir and Olot returning through Banyoles. Over 2000m of climbing on this route with stunning views over the reservoir.<a role="link" Title="Garmin Connect" target="_blank" href="assets/gpx_files/longRoutes/COURSE_SusquedaReservoirOlotLoop.gpx"><p>Susqueda Reservoir Olot Loop &nbsp;&nbsp;<i class="pi pi-spin pi-map-marker"></i></p><img src="assets/images/Susqueda_Reservoir_Olot_Loop.jpg"></a>'
      }
     // {
     //   heading: 'Les Planes d\'Hostoles → Osor → Saint Hilari Sacalm',
